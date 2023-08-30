@@ -1,0 +1,14 @@
+{
+  "database": {
+    "sqlite": "./data/main.db",
+    "chromadb": "./data/chroma"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3281
+  },
+  "embeddings_model": "all-mpnet-base-v2",
+  "production": false,
+  "gpu": true,
+  "max_query_distance": 1.65
+}

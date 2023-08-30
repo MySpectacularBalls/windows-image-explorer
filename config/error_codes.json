@@ -1,0 +1,32 @@
+{
+  "C01": {
+    "title": "JSON body is required",
+    "description": "The client provided no JSON body but the endpoint requires it.",
+    "message": "No JSON body provided",
+    "status_code": 400
+  },
+  "C02": {
+    "title": "JSON schema validation failed",
+    "description": "The client provided a JSON body but it failed the schema validation.",
+    "message": "JSON schema validation failed",
+    "status_code": 422
+  },
+  "C03": {
+    "title": "URL query parameters are required",
+    "description": "The client provided no URL query parameters but the endpoint requires them.",
+    "message": "No URL query parameters provided",
+    "status_code": 400
+  },
+  "C04": {
+    "title": "URL query parameter validation failed",
+    "description": "The client provided URL query parameters but they failed the schema validation.",
+    "message": "URL query parameter validation failed",
+    "status_code": 422
+  },
+  "C05": {
+    "title": "Query not found",
+    "description": "The client is attempting to get information about a specific query but the provided query id does not exist.",
+    "message": "The provided Query ID does not exist",
+    "status_code": 404
+  }
+}

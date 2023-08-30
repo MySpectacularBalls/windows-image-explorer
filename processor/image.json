@@ -1,0 +1,5 @@
+{
+  "model": "Salesforce/blip-image-captioning-base",
+  "gpu": true,
+  "enabled": true
+}
